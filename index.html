@@ -50,7 +50,25 @@
             </div>
         </div>
 
-        <script></script>
+        <audio src="./sounds/clap.wav"></audio>
+        <audio src="./sounds/hihat.wav"></audio>
+        <audio src="./sounds/kick.wav"></audio>
+        <audio src="./sounds/openhat.wav"></audio>
+        <audio src="./sounds/boom.wav"></audio>
+        <audio src="./sounds/ride.wav"></audio>
+        <audio src="./sounds/snare.wav"></audio>
+        <audio src="./sounds/tom.wav"></audio>
+        <audio src="./sounds/tink.wav"></audio>
+
+        <script>
+            // object Window has tons of properties, one 
+            // named keyCode which represent the key which
+            // was pressed
+
+            window.addEventListener('keydown', function (e) {
+                console.log(e.keyCode)
+            })
+        </script>
     </body>
 
 </html>
